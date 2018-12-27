@@ -1,0 +1,5 @@
+---
+- hosts: dbserver 
+  tasks:
+  - name: Ping to all node
+    ping:

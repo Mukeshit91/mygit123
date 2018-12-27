@@ -1,0 +1,12 @@
+---
+- hosts: webserver
+  become: yes
+  tasks:
+  - name: copy module
+    copy: 
+      src: /home/ansible/playbook/tomcat.yml
+      dest: /home/ansible/mytomcat.yml
+  - name: get_url from download from http
+    get_url:
+       url: http://ftp-chi.osuosl.org/pub/jenkins/war-stable/2.150.1/jenkins.war
+       dest: /home/ansible/jenkins.war

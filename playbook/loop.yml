@@ -1,0 +1,9 @@
+---
+- hosts: webserver
+  become: yes
+  tasks:
+    - name: installing utility
+      apt:
+        name: "{{ item }}"
+        state: present
+      with_items: ["git","nano","tree","wget"]

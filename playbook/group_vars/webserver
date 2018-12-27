@@ -1,0 +1,3 @@
+---
+packagename: tomcat8
+destcopy: /home/ansible/me1apache
