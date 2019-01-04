@@ -1,0 +1,9 @@
+---
+- hosts: webserver
+  become: yes
+  tasks:
+  - name: first dynamic template
+    template:
+      src: second.j2
+      dest: /home/ansible/first
+

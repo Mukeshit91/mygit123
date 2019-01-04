@@ -1,2 +1,3 @@
 ---
 destcopy: /home/ansible/apachefromhost
+username: ansible1
