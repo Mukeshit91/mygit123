@@ -1,0 +1,11 @@
+ip-10-1-2-200.ec2.internal
+ip-10-1-2-7.ec2.internal
+[ubuntu]
+ip-10-1-2-200.ec2.internal
+ip-10-1-2-7.ec2.internal
+
+[webserver]
+ip-10-1-2-200.ec2.internal
+
+[dbserver]
+ip-10-1-2-7.ec2.internal
